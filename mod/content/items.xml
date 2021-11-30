@@ -1,0 +1,7 @@
+<items gfxroot="gfx/items/" version="1">
+  <passive name="Astraea" description="ast desc" gfx="astraea.png" quality="0">
+  <passive name="Ceres" description="cer desc" gfx="ceres.png" quality="0">
+  <passive name="Pallas" description="pal desc" gfx="pallas.png" quality="0">
+  <passive name="Vesta" description="vest desc" gfx="vesta.png" quality="0">
+  <passive name="Juno" description="jun desc" gfx="juno.png" quality="0">
+</items>
