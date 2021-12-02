@@ -1,6 +1,6 @@
 <items gfxroot="gfx/items/" version="1">
   <passive name="Ceres" description="She grants you her blessings" gfx="ceres.png" quality="2">
-  <passive name="Pallas" description="Water of the womb" gfx="pallas.png" quality="3">
+  <passive name="Pallas" description="Water of the womb" gfx="pallas.png" quality="3" cache="damage firedelay">
   <passive name="Juno" description="jun desc" gfx="juno.png" quality="0">
   <passive name="Vesta" description="vest desc" gfx="vesta.png" quality="0">
   <passive name="Astraea" description="ast desc" gfx="astraea.png" quality="0">
