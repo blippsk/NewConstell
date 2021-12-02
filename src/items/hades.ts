@@ -1,12 +1,9 @@
 import { addFlag } from "isaacscript-common";
-import { ModItemTypes, rng } from "../../constants";
+import { ModItemTypes, rng } from "../constants";
 
-export function hadesBone(EntityNPC: EntityNPC): void {
+export function hadesBone(npc: EntityNPC): void {
   const player = Isaac.GetPlayer();
-  if (
-    !player.HasCollectible(ModItemTypes.HADES) ||
-    !EntityNPC.IsActiveEnemy(false)
-  ) {
+  if (!player.HasCollectible(ModItemTypes.HADES) || !npc.IsActiveEnemy(false)) {
     return;
   }
   if (rng.RandomInt(101) <= 40) {
