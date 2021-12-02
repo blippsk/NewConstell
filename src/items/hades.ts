@@ -9,7 +9,7 @@ export function hadesBone(npc: EntityNPC): void {
   if (rng.RandomInt(101) <= 40) {
     player.UseActiveItem(
       CollectibleType.COLLECTIBLE_BOOK_OF_THE_DEAD,
-      addFlag(1, 8),
+      addFlag(1, 3, 8),
     );
   }
 }
