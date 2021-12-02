@@ -1,7 +1,28 @@
 <items gfxroot="gfx/items/" version="1">
-  <passive name="Astraea" description="ast desc" gfx="astraea.png" quality="0">
-  <passive name="Ceres" description="cer desc" gfx="ceres.png" quality="0">
-  <passive name="Pallas" description="pal desc" gfx="pallas.png" quality="0">
-  <passive name="Vesta" description="vest desc" gfx="vesta.png" quality="0">
+  <passive name="Ceres" description="She grants you her blessings" gfx="ceres.png" quality="2">
+  <passive name="Pallas" description="Water of the womb" gfx="pallas.png" quality="3">
   <passive name="Juno" description="jun desc" gfx="juno.png" quality="0">
+  <passive name="Vesta" description="vest desc" gfx="vesta.png" quality="0">
+  <passive name="Astraea" description="ast desc" gfx="astraea.png" quality="0">
+  <passive name="Hygiea" description="ast desc" gfx="hygiea.png" quality="0">
+  <passive name="Iris" description="ast desc" gfx="iris.png" quality="0">
+  <passive name="Chiron" description="ast desc" gfx="chiron.png" quality="0">
+  <passive name="Nessus" description="ast desc" gfx="nessus.png" quality="0">
+  <passive name="Pholus" description="ast desc" gfx="pholus.png" quality="0">
+  <passive name="Eris" description="ast desc" gfx="eris.png" quality="0">
+  <passive name="Proserpina" description="ast desc" gfx="proserpina.png" quality="0">
+  <passive name="Haumea" description="ast desc" gfx="haumea.png" quality="0">
+  <passive name="Makemake" description="ast desc" gfx="makemake.png" quality="0">
+  <passive name="Gonggong" description="ast desc" gfx="gonggong.png" quality="0">
+  <passive name="Sedna" description="ast desc" gfx="senda.png" quality="0">
+  <passive name="Quaoar" description="ast desc" gfx="quaoar.png" quality="0">
+  <passive name="Orcus" description="ast desc" gfx="orcus.png" quality="0">
+  <passive name="Transpluto" description="ast desc" gfx="transpluto.png" quality="0">
+  <passive name="Cupido" description="ast desc" gfx="cupido.png" quality="0">
+  <passive name="Hades" description="They'll Rise." gfx="hades.png" quality="4">
+  <passive name="Zeus" description="ast desc" gfx="zeus.png" quality="0">
+  <passive name="Kronos" description="ast desc" gfx="kronos.png" quality="0">
+  <passive name="Apollon" description="ast desc" gfx="apollon.png" quality="0">
+  <passive name="Vulcanus" description="ast desc" gfx="vulcanus.png" quality="0">
+  <passive name="Poseidon" description="ast desc" gfx="poseidon.png" quality="0">
 </items>
