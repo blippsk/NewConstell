@@ -1,0 +1,30 @@
+<ItemPools>
+  <Pool Name="planetarium">
+    <Item Name="Ceres" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Pallas" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Juno" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Vesta" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Astraea" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Hygiea" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Iris" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Chiron" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Nessus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Pholus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Eris" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Proserpina" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Haumea" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Makemake" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Gonggong" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Sedna" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Quaoar" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Orcus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Transpluto" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Cupido" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Hades" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Zeus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Kronos" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Apollon" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Vulcanus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    <Item Name="Poseidon" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+  </Pool>
+</ItemPools>
