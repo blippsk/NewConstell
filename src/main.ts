@@ -6,7 +6,7 @@ import { preRoomEntitySpawn } from "./callbacks/MC_PRE_ROOM_ENTITY_SPAWN";
 export function main(): void {
   // Instantiate a new mod object, which grants the ability to add callback functions that
   // correspond to in-game events
-  const newcon = RegisterMod("New Constellations", 1);
+  const newcon = RegisterMod("Better Planetariums", 1);
 
   // Set a callback function that corresponds to when a new run is started
   newcon.AddCallback(ModCallbacks.MC_POST_GAME_STARTED, postGameStarted);

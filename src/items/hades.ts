@@ -3,7 +3,7 @@ import { ModItemTypes, rng } from "../constants";
 
 export function hadesBone(npc: EntityNPC): void {
   const player = Isaac.GetPlayer();
-  if (!player.HasCollectible(ModItemTypes.HADES) || !npc.IsActiveEnemy(false)) {
+  if (!player.HasCollectible(ModItemTypes.HADES) || !npc.IsActiveEnemy(true)) {
     return;
   }
   if (rng.RandomInt(101) <= 40) {

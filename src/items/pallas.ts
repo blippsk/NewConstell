@@ -8,7 +8,7 @@ export function pallasMapping(): void {
   }
 }
 
-export function pallasCache(): void {
+export function pallasStats(): void {
   const player = Isaac.GetPlayer();
   if (game.GetRoom().HasWater() && player.HasCollectible(ModItemTypes.PALLAS)) {
     player.Damage *= 2;
