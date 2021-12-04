@@ -1,3 +1,4 @@
+import { evaluateCache } from "./callbacks/MC_EVALUATE_CACHE";
 import { postNewLevel } from "./callbacks/MC_POST_NEW_LEVEL";
 import { postNewRoom } from "./callbacks/MC_POST_NEW_ROOM";
 import { postNPCDeath } from "./callbacks/MC_POST_NPC_DEATH";
@@ -14,6 +15,7 @@ export function main(): void {
   newcon.AddCallback(ModCallbacks.MC_PRE_ROOM_ENTITY_SPAWN, preRoomEntitySpawn);
   newcon.AddCallback(ModCallbacks.MC_POST_NEW_LEVEL, postNewLevel);
   newcon.AddCallback(ModCallbacks.MC_POST_NEW_ROOM, postNewRoom);
+  newcon.AddCallback(ModCallbacks.MC_EVALUATE_CACHE, evaluateCache);
 
   // Print an initialization message to the "log.txt" file
   Isaac.DebugString("newconstell initialized.");

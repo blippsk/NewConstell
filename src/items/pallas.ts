@@ -10,9 +10,15 @@ export function pallasMapping(): void {
 
 export function pallasStats(): void {
   const player = Isaac.GetPlayer();
-  if (game.GetRoom().HasWater() && player.HasCollectible(ModItemTypes.PALLAS)) {
-    player.Damage *= 2;
-    addTearsStat(player, 1.5);
+  if (
+    game.GetRoom().HasWater() &&
+    player.HasCollectible(ModItemTypes.PALLAS) &&
+    NewConData.room.pallasStats !== 1
+  ) {
+    player.AddCacheFlags(
+      addFlag(CacheFlag.CACHE_DAMAGE, CacheFlag.CACHE_FIREDELAY),
+    );
+    player.EvaluateItems();
     NewConData.room.pallasStats = 1;
   } else if (
     NewConData.room.pallasStats === 1 &&
@@ -47,5 +53,20 @@ function pee() {
       Vector(0, 0),
       player,
     );
+  }
+}
+
+export function stats(player: EntityPlayer, cacheFlag: CacheFlag) {
+  if (
+    !player.HasCollectible(ModItemTypes.PALLAS) ||
+    NewConData.room.pallasStats !== 1
+  ) {
+    return;
+  }
+  if (cacheFlag === CacheFlag.CACHE_DAMAGE) {
+    player.Damage *= 2;
+  }
+  if (cacheFlag === CacheFlag.CACHE_FIREDELAY) {
+    addTearsStat(player, 1.5);
   }
 }
